@@ -111,9 +111,7 @@ length of *keepProb* should be either 1 or eaual to number of layers if length o
 
 Here is example to create Neural Network
 ```
-NN = deepNet(X,y,Net = [3,3],NetAf =['tanh'], alpha=0.01,miniBatchSize = 0.3, printCostAt =100,
-       AdamOpt=True,B1=0.9,B2=0.99, lambd=0,keepProb =[1.0])
-
+NN = deepNet(X,y,Net = [3,3],NetAf =['tanh'], alpha=0.01,miniBatchSize = 0.3, printCostAt =100, AdamOpt=True,B1=0.9,B2=0.99, lambd=0,keepProb =[1.0])
 ```
 
 ### Training
