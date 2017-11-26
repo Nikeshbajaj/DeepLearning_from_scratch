@@ -14,13 +14,14 @@
 * **Dropouts**
 
 ### Data set
-* **Two class dataset** : **Gaussian, Linear, Moon, Spiral, Sinasodal**
+* **Two class dataset** : **Gaussian, Linear, Moons, Spiral, Sinasodal**
 * **Multiclass: gaussian distribuated data upto 9 classes**
 
 
 ## Examples 
 ### Three examples scripts are included
 
+## for Two features, deep layers, decesion boundries and Learning curve can be visulize as shown in figures below
 <p align="center">
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/1.png" width="600"/>
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/3.png" width="600"/>
@@ -32,8 +33,105 @@
 </p>
 
 
+## For more than two features, only Leaning curve is easy to plot
 <p align="center">
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/2.png" width="400"/> <img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/11.png" width="400"/>
 </p>
 
 
+
+## Instruction to run
+* Requirement is only numpy and matplotlib
+
+### Create Data
+
+```
+import DataSet as ds
+X, y,_ = ds.create_dataset(N =100, Dtype = 'MOONS', noise=0.0,varargin = 'PRESET');
+```
+Size of X will be =(2,200) and y =(1,200)
+
+this will generate 100 samples for each class of Moons data with 'PRESET' arguements, you can add noise by fliping the classes of some example, noise takes fractional value to flips the class labels.
+
+type  ```help(ds.create_dataset)```  for more detail
+
+
+
+### Creating Neural Network
+```
+import matplotlib.pyplot as plt
+from DeepNet import deepNet
+```
+**Network size**
+``` Network =[3,3] ```
+Two hidden Layers with 3 neurons each, also can be ```Network =[100, 50, 40, 200]``` as deep as you like
+First and last layer of network will be decided based on dimention of X, and y. Size of first layer = number of features in X (=X.shape[0]), Size of last layer will be 1 if there are two classes else equal to number of classes =(unique values in y)
+
+**Activation Functions**
+```NetAf  = ['tanh','relu'] ```
+first layer with tanh and next layer with relu activation function, if you pass only one then by defalut all the hidden layers will have same activation function.
+By default if there are two classes, last layer activation function will be sigmoid for multiclass it will be softmax.
+
+**Learning rate**
+```
+alpha=0.01
+```
+**Batch Size**
+```
+miniBatchSize = 0.3
+```
+this sets 30% as batch size, if ```miniBatchSize = 1.0``` then there will not be batch processing
+
+**Optimizer**
+```
+AdamOpt=True
+```
+if selected ```AdamOpt=False``` normal gradiet decent will be effective
+
+**Momentum Parameters**
+```
+B1=0.9
+B2=0.99
+```
+These parameters can be tuned
+
+**L2 Regularizition**
+``` lambd =0.5``` if set to 0 no L2 regularization will be used
+**Dropouts**
+```keepProb =[1.0, 0.8, 1.0]```
+length of *keepProb* should be either 1 or eaual to number of layers if length of *keepProb* is 1 same probabilty of dropout will be used for all the layers expcept last layer.
+
+Here is example to create Neural Network
+```
+NN = deepNet(X,y,Net = [3,3],NetAf =['tanh'], alpha=0.01,miniBatchSize = 0.3, printCostAt =100,AdamOpt=True,B1=0.9,B2=0.99, lambd=0,keepProb =[1.0])
+
+```
+
+### Training
+```
+NN.fit(itr=100)
+```
+this allows you to train for 100 iteration and do any computation like checking cost, error, decesion boundries etc, as shown in example scripts. then for next 100 iteration just run ```NN.fit(itr=100)```
+
+
+### Predicting
+```
+yp, ypr = NN.predict(X)
+```
+this will give you predicted class in yp and probabilities of all the classes in ypr
+
+### Ploting Learning Curve
+```
+NN.PlotLCurve()
+```
+
+### Ploting Decesion Boundries
+This is only if X has two features (X.shape[0]==2)
+```
+NN.PlotBoundries()
+```
+### Plotting Hidden Layers for visulization of hidden low level features learned by Network
+This is only if X has two features (X.shape[0]==2)
+```
+NN.PlotBoundries(Layers=True)
+```
