@@ -17,7 +17,7 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 
 class deepNet():
 	def __init__(self,X,y,Xts =None, yts =None, Net = [2],NetAf =['tanh'], alpha=0.01,miniBatchSize = 0.1, printCostAt =100,
-		PlotLC=False,bPlotInt =-1,wPlotInt =-1,AdamOpt=False,B1=0.9,B2=0.99,lambd=0,keepProb =[1.0]):
+		     AdamOpt=False,B1=0.9,B2=0.99,lambd=0,keepProb =[1.0]):
 		
 
 		nx, m1 = X.shape
@@ -87,9 +87,6 @@ class deepNet():
 		self.lambd  = lambd
 		self.miniBatchSize=miniBatchSize
 		self.printCostAt = printCostAt
-		self.PlotLC = PlotLC
-		self.bPlotInt = bPlotInt
-		self.wPlotInt = wPlotInt
 		self.keepProb = keepProb
 
 		#print(self.Para['W'])
