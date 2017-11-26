@@ -441,12 +441,10 @@ def create_dataset(N, Dtype, noise, varargin = 'PRESET',**Options):
         varargout = [s, wrappings, m]
     
     else:
-        
-        tkMessageBox.showerror("Tips and tricks",'Specified dataset type is not correct. It must be one of MOONS, GAUSSIANS, LINEAR, SINUSOIDAL, SPIRAL')
         raise ValueError('Specified dataset type is not correct. It must be one of MOONS, GAUSSIANS, LINEAR, SINUSOIDAL, SPIRAL')
     
     
     swap = np.random.rand(Y.shape[0],1)<=noise
-    Y[swap] = Y[swap]*-1
-
+    Y[swap] = Y[swap]+1
+    Y[np.where(Y==2)]=0
     return X, Y, varargout
