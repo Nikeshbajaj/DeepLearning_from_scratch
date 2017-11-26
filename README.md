@@ -2,10 +2,8 @@
 **Here is implementation of Neural Network from scratch without using any libraries of ML Only numpy is used for NN and matplotlib for plotting the results**
 **visulization of deep layers are also shown in the examples**
 <p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/20.gif" width="600"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/21.gif" width="600"/>
 </p>
-
-//![](https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/20.gif)
 
 
 ## Implementation includes following
