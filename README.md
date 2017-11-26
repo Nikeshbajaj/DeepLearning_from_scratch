@@ -1,7 +1,7 @@
 # DeepLearning from scratch
 **Here is implementation of Neural Network from scratch without using any libraries of ML Only numpy is used for NN and matplotlib for plotting the results**
 
-**G[ithib Page](https://nikeshbajaj.github.io/DeepLearning_from_scratch/)**
+**G[ithub Page](https://nikeshbajaj.github.io/DeepLearning_from_scratch/)**
 
 **visulization of deep layers are also shown in the examples**
 <p align="center">
