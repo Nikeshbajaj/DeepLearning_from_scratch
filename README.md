@@ -5,6 +5,7 @@
 <img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/20.gif" width="600"/>
 </p>
 
+//![](https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/20.gif)
 
 
 ## Implementation includes following
