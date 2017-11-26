@@ -67,13 +67,15 @@ from DeepNet import deepNet
 **Network size**
 
 ``` Network =[3,3] ```
+
 Two hidden Layers with 3 neurons each, also can be ```Network =[100, 50, 40, 200]``` as deep as you like
 First and last layer of network will be decided based on dimention of X, and y. Size of first layer = number of features in X *(=X.shape[0])*, Size of last layer will be 1 if there are two classes else equal to number of classes =(unique values in y)
 
 **Activation Functions**
 
 ```NetAf  = ['tanh','relu'] ```
-first layer with tanh and next layer with relu activation function, if you pass only one then by defalut all the hidden layers will have same activation function.
+
+first layer with tanh and next layer with relu activation function, if you pass only one then by defalut all the hidden layers will have same activation function. Other options for activation functions are *Sigmoid* ``` sig ```, Leaky Rectifier Linear Unite ```lrelu``` 
 By default if there are two classes, last layer activation function will be sigmoid for multiclass it will be softmax.
 
 **Learning rate**
