@@ -43,7 +43,8 @@
 
 ## For more than two features, only Leaning curve is easy to plot
 <p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/2.png" width="400"/> <img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/11.png" width="400"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/2.png" width="700"/> 
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/11.png" width="700"/>
 </p>
 
 
