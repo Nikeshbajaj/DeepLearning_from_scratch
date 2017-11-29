@@ -5,7 +5,7 @@
 
 **visulization of deep layers are also shown in the examples**
 <p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/deepnet.gif" width="1100"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/deepnet.gif" width="1300"/>
 </p>
 
 
@@ -36,7 +36,8 @@
 
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/5.png" width="400"/> <img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/9.png" width="400"/>
+<img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/5.png" width="600"/> 
+ <img src="https://raw.githubusercontent.com/Nikeshbajaj/DeepLearning_from_scratch/master/figures/9.png" width="600"/>
 </p>
 
 
