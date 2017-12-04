@@ -113,6 +113,7 @@ These parameters can be tuned
 **L2 Regularizition**
 
 ``` lambd =0.5``` if set to 0 no L2 regularization will be used
+
 **Dropouts**
 
 ```keepProb =[1.0, 0.8, 1.0]```
