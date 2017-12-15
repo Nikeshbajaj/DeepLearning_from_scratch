@@ -1,13 +1,13 @@
 '''
-_Deep Neural Network  from scrach
-_V3.0
+Deep Neural Network  from scrach
+V3.0
 
 @Author _ Nikesh Bajaj
 PhD Student at Queen Mary University of London &
 University of Genova
 Conact _ http://nikeshbajaj.in 
-n[dot]bajaj@qmul.ac.uk
-bajaj[dot]nikkey@gmail.com
+n.bajaj@qmul.ac.uk
+bajaj.nikkey@gmail.com
 '''
 
 
@@ -204,7 +204,8 @@ class deepNet():
 				yi = np.argmax(self.y,axis=0).reshape([1,-1])
 		else:
 			yi =y
-
+		if X.shape[0]>2:
+			print('Dimention of data is more than 2, boundries and layers could not be plotted')
 		F = plt.figure(2,figsize=(8,4))
 		plt.clf()
 		#print(self.y.shape)
