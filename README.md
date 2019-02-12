@@ -56,9 +56,8 @@
 </p>
 
 ---
----
-
 ## Instruction to run
+---
 
 ### Requirements are only numpy and matplotlib
 
@@ -197,6 +196,8 @@ for i in range(20):         ## 20 times
     fig2.canvas.draw()
     
 ```
+
+## See the examples in [Jupyter-Notebook](https://github.com/Nikeshbajaj/DeepLearning_from_scratch/blob/master/AllExamples.ipynb)
 
 
 
