@@ -1,12 +1,10 @@
 # DeepLearning from scratch
 **Here is implementation of Neural Network from scratch without using any libraries of ML Only numpy is used for NN and matplotlib for plotting the results**
 
-- ## [Instruction to use](#instruction-to-run)
-- ## [View in page](https://nikeshbajaj.github.io/DeepLearning_from_scratch)
-- ## [See examples in jupyter-notebook](https://github.com/Nikeshbajaj/DeepLearning_from_scratch/blob/master/AllExamples.ipynb)
-
-
-### **V[iew on Github Page](https://nikeshbajaj.github.io/DeepLearning_from_scratch/)**
+## [Instruction to use](#instruction-to-run)
+## [View in page](https://nikeshbajaj.github.io/DeepLearning_from_scratch)
+## [See examples in jupyter-notebook](https://github.com/Nikeshbajaj/DeepLearning_from_scratch/blob/master/AllExamples.ipynb)
+## **V[iew on Github Page](https://nikeshbajaj.github.io/DeepLearning_from_scratch/)**
 
 **visulization of deep layers are also shown in the examples**
 <p align="center">
@@ -132,16 +130,22 @@ These parameters can be tuned
 
 #### **L2 Regularizition**
 
-``` lambd =0.5``` if set to 0 no L2 regularization will be used
+```
+lambd =0.5
+``` 
+if set to 0 no L2 regularization will be used
 
 #### **Dropouts**
 
-```keepProb =[1.0, 0.8, 1.0]```
+```
+keepProb =[1.0, 0.8, 1.0]
+```
 length of *keepProb* should be either 1 or eaual to number of layers if length of *keepProb* is 1 same probabilty of dropout will be used for all the layers expcept last layer.
 
 Here is example to create Neural Network
 ```
-NN = deepNet(X,y,Net = [3,3],NetAf =['tanh'], alpha=0.01,miniBatchSize = 0.3, printCostAt =100, AdamOpt=True,B1=0.9,B2=0.99, lambd=0,keepProb =[1.0])
+NN = deepNet(X,y,Net = [3,3],NetAf =['tanh'], alpha=0.01,miniBatchSize = 0.3, 
+            printCostAt =100, AdamOpt=True,B1=0.9,B2=0.99, lambd=0,keepProb =[1.0])
 ```
 
 ### Training
