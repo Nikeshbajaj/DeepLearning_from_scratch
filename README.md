@@ -2,7 +2,7 @@
 **Here is implementation of Neural Network from scratch without using any libraries of ML Only numpy is used for NN and matplotlib for plotting the results**
 
 ## [Instruction to use](#instruction-to-run)
-## [See examples in jupyter-notebook](https://github.com/Nikeshbajaj/DeepLearning_from_scratch/blob/master/AllExamples.ipynb)
+## [See examples in jupyter-notebook <img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/jp3.png" height="30"/>](https://nbviewer.jupyter.org/github/nikeshbajaj/DeepLearning_from_scratch/blob/master/AllExamples.ipynb)
 ## **V[iew on Github Page](https://nikeshbajaj.github.io/DeepLearning_from_scratch/)**
 
 **visulization of deep layers are also shown in the examples**
@@ -200,7 +200,10 @@ for i in range(20):         ## 20 times
     
 ```
 
-## See the examples in [Jupyter-Notebook](https://github.com/Nikeshbajaj/DeepLearning_from_scratch/blob/master/AllExamples.ipynb)
+## See the examples in [Jupyter-Notebook](https://nbviewer.jupyter.org/github/nikeshbajaj/DeepLearning_from_scratch/blob/master/AllExamples.ipynb)
+[<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/jp3.png" height="50"/>](https://nbviewer.jupyter.org/github/nikeshbajaj/DeepLearning_from_scratch/blob/master/AllExamples.ipynb)
+[<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/jp.png" height="50"/>]
+(https://raw.githubusercontent.com/nikeshbajaj/DeepLearning_from_scratch/master/AllExamples.ipynb)
 
 
 
