@@ -202,8 +202,8 @@ for i in range(20):         ## 20 times
 
 ## See the examples in [Jupyter-Notebook](https://nbviewer.jupyter.org/github/nikeshbajaj/DeepLearning_from_scratch/blob/master/AllExamples.ipynb)
 [<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/jp3.png" height="50"/>](https://nbviewer.jupyter.org/github/nikeshbajaj/DeepLearning_from_scratch/blob/master/AllExamples.ipynb)
-[<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/jp.png" height="50"/>]
-(https://raw.githubusercontent.com/nikeshbajaj/DeepLearning_from_scratch/master/AllExamples.ipynb)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[<img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/jp.png" height="50"/>](https://raw.githubusercontent.com/nikeshbajaj/DeepLearning_from_scratch/master/AllExamples.ipynb)
 
 
 
