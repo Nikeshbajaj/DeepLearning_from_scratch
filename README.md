@@ -4,7 +4,7 @@
 ## [Instruction to use](#instruction-to-run)
 ## [See examples in jupyter-notebook <img src="https://raw.githubusercontent.com/Nikeshbajaj/utis/master/images/jp3.png" height="30"/>](https://nbviewer.jupyter.org/github/nikeshbajaj/DeepLearning_from_scratch/blob/master/AllExamples.ipynb)
 
-### Create same animation yourself - [use binder to run the code](https://mybinder.org/v2/gh/Nikeshbajaj/DeepLearning_from_scratch/tree/master/HEAD?labpath=AllExamples.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Nikeshbajaj/DeepLearning_from_scratch/tree/master/HEAD?labpath=AllExamples.ipynb)
+<!--- ### Create same animation yourself - [use binder to run the code](https://mybinder.org/v2/gh/Nikeshbajaj/DeepLearning_from_scratch/tree/master/HEAD?labpath=AllExamples.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Nikeshbajaj/DeepLearning_from_scratch/tree/master/HEAD?labpath=AllExamples.ipynb) --> 
 
 ## **V[iew on Github Page](https://nikeshbajaj.github.io/DeepLearning_from_scratch/)**
 
